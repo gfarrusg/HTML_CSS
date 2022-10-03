@@ -1,486 +1,126 @@
     
+*{
+ 
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}    
     
-    *{
-     
-        box-sizing: border-box;
-    
-    }
+.padre{
 
-    body{
+    display: flex;
+    flex-flow: column nowrap;
 
-        max-width: 1200px;
+}
 
-    }
-
-    header{
-
-        border: black 10px solid;
-        background: #554994;
-        padding: 10px;
-    
-    }
-
-    nav{
-
-        border: black 10px solid;
-        background: tomato;
+    .header{
         
-        
-
-    }
-
-    .Padre{
-
+        background: #000;
         display: flex;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        
-        
-    }
-
-    section{
-
-        border: black 10px solid;
-        width: 70%;
-        background: rgba(203, 180,224, 0.555);
-        box-sizing: border-box;
-        
-        
+        flex-flow: column nowrap;
 
     }
+        .menu{
 
-    aside{
-
-        border: black 10px solid;
-        width: 30%;
-        background: rgba(255, 38, 0, 0.877);
-        box-sizing: border-box;
-        
-        
-    }
-
-    footer{
-
-        border: black 10px solid;
-        background: rgba(192, 127, 7);
-        padding: 10px;
-        
-    }
-
-    .Inicio{
-        
-        display: inline-block;
-        background: rgba(255, 0, 0, 0.507);
-        padding-left: 20px;
-        padding-top: 10px;
-        padding-right: 210px;
-        padding-bottom: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10PX;
-    }
-
-    .Logo{
-
-        display: inline-block;
-        background: rgba(255, 0, 0, 0.507);
-        padding: 10px;
-        padding-left: 415px;
-        padding-right: 200px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        
-    }
-
-    .Contacto{
-
-        display: inline-block;
-        background: rgba(255, 0, 0, 0.507);
-        padding-left: 210px;
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .Amarillo{
-
-        
-        background: rgba(255, 255, 0, 0.5);
-        padding-left: 2px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 37px; 
-        margin-bottom: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-        margin-left: 20px;
-
-    }
-
-    .Columna{
-        
-        display: inline-flex;
-        background: rgba(59, 106, 114);
-        padding-left: 2px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 360px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-left: 20px;
-
-    }
-
-    .Final{
-        
-        
-        background: rgba(236, 236, 3, 0.993);
-        padding-left: 2px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 710px;
-        margin-bottom: 20px;
-        margin-right: 30px;
-        margin-top: 10px;
-        margin-left: 20px;
-
-    } 
-
-    .Parrafo{
-
-        background: rgba(184, 184, 0, 0.5);
-        padding-left: 2px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-right: 270px;
-        margin-bottom: 10px;
-        margin-right: 20px;
-        margin-top: 10px;
-        margin-left: 20px;
-
-    } 
-
-        /* Acaba PC, empieza Tablet */
-    
-   
-        @media (max-width: 768px){
-
-   
-        header{
-
-
-            border: black 10px solid;
-            background: #554994;
-            padding: 10px;
-        
-        }
-
-        nav{
-
-            border: black 10px solid;
-            background: tomato;
-            
-        }
-
-        .Padre{
-
+            background:#2d4059 ;
             display: flex;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            
-        }   
-
-        section{
-
-            border: yellow 10px solid;
-            width: 100%;
-            background: rgba(203, 180,224, 0.555);
-            box-sizing: border-box;
-            
-        }
-
-        aside{
-
-            border: yellow 10px solid;
-            width: 100%;
-            background: rgba(255, 38, 0, 0.877);
-            box-sizing: border-box;
-            padding: 20px;
-            
-        }
-
-        footer{
-
-            border: black 10px solid;
-            background: rgba(192, 127, 7);
-            padding: 10px;
-            
-        }
-
-        .Inicio{
-            
-            display: inline-block;
-            background: rgba(255, 0, 0, 0.507);
-            padding-left: 60px;
-            padding-top: 10px;
-            padding-right: 65px;
-            padding-bottom: 10px;
-            margin-right: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            margin-left: 10PX;
-
-        }
-
-        .Logo{
-
-            display: inline-block;
-            background: rgba(255, 0, 0, 0.507);
-            padding: 10px;
-            padding-left: 200px;
-            padding-right: 200px;
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            
-        }
-
-        .Contacto{
-
-            display: inline-block;
-            background: rgba(255, 0, 0, 0.507);
-            padding-left: 65px;
-            padding-top: 10px;
-            padding-right: 60px;
-            padding-bottom: 10px;
-            margin-left: 10px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-
-        }
-
-        .Amarillo{
-
-            
-            background: rgba(255, 255, 0, 0.5);
-            padding-left: 2px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 37px; 
-            margin-bottom: 20px;
-            margin-right: 20px;
-            margin-top: 20px;
-            margin-left: 20px;
-
-        }
-
-        .Columna{
         
-            display: inline-flex;
-            background: rgba(59, 106, 114);
-            padding-left: 75px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right:250px;
-            margin-right: 10px;
-                margin-top: 20px;
-        margin-left: 20px;
+        }
+            .logo{
+
+                background: #ea5455;
+                flex: 1 1 auto;
+
+            }
+
+            .nav{
+
+                background: #ea5455;
+                flex: 5 1 auto;
+
+            }
+
+            .social{
+
+                background: #ea5455;
+                flex: 1 1 auto;
+
+            }
+
+        .text-principal{
+
+             background: #f07b3f;
 
         }
+            h1{
 
-        .Final{
+                background: #ffd460;
+
+            }
+
+    .section{
         
-        
-            background: rgba(236, 236, 3, 0.993);
-            padding-left: 2px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 460px;
-            margin-bottom: 20px;
-            margin-right: 40px;
-            margin-top: 10px;
-            margin-left: 25px;
+        background: #000;
+        display: flex;
 
-        } 
-
-        .Parrafo{
-
-            background: rgba(184, 184, 0, 0.5);
-            padding-left: 2px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            padding-right: 270px;
-            margin-bottom: 10px;
-            margin-right: 20px;
-            margin-top: 10px;
-            margin-left: 20px;
-
-        } 
     }
 
-            /* Empieza movil acaba tablet */
-        
-        
-        @media (max-width: 600px){
-            
-        
-            header{
-        
-        
-                border: black 10px solid;
-                background: #554994;
-                padding: 10px;
-            
-            }
-        
-            nav{
-        
-                border: black 10px solid;
-                background: tomato;
-        
-            }
-        
-            .Padre{
-        
-            
-            margin-top: 10px;
-                margin-bottom: 10px;
-            
-            
-            }
-        
-            section{
-        
-                border: yellow 10px solid;
-                width: 100%;
-                background: rgba(203, 180,224, 0.555);
-                box-sizing: border-box;
-            
-            }
-        
-            aside{
-        
-                border: yellow 10px solid;
-                width: 100%;
-                background: rgba(255, 38, 0, 0.877);
-                box-sizing: border-box;
-                padding: 20px;
-            
-            }
-        
-            footer{
-        
-                border: black 10px solid;
-                background: rgba(192, 127, 7);
-                padding: 10px;
-            
-            }
-        
-            .Inicio{
-            
-                display: inline-block;
-                background: rgba(255, 0, 0, 0.507);
-                padding-left: 240px;
-                padding-top: 10px;
-                padding-right: 300px;
-                padding-bottom: 10px;
-                margin-right: 10px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                margin-left: 10PX;
-            }
-        
-            .Logo{
-        
-                display: inline-block;
-                background: rgba(255, 0, 0, 0.507);
-                padding: 10px;
-                padding-left: 240px;
-                padding-right: 300px;
-                margin-left: 10px;
-                margin-right: 10px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-            
-            }
-        
-            .Contacto{
-        
-                display: inline-block;
-                background: rgba(255, 0, 0, 0.507);
-                padding-left: 240px;
-                padding-top: 10px;
-                padding-right: 300px;
-                padding-bottom: 10px;
-                margin-left: 10px;
-                margin-top: 10px;
-                margin-bottom: 10px;
-            }
-        
-        
-        
-            .Amarillo{
-        
-            
-                background: rgba(255, 255, 0, 0.5);
-                padding-left: 2px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-right: 37px; 
-                margin-bottom: 20px;
-                margin-right: 20px;
-                margin-top: 20px;
-                margin-left: 20px;
-        
-            }
-        
-            .Columna{
-            
-                display: inline-flex;
-                background: rgba(59, 106, 114);
-                padding-left: 240px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-right:290px;
-                margin-right: 10px;
-                margin-top: 20px;
-                margin-left: 20px;
-        
-            }
-        
-            .Final{
-            
-            
-                background: rgba(236, 236, 3, 0.993);
-                padding-left: 2px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-right: 40px;
-                margin-bottom: 20px;
-                margin-right: 30px;
-                margin-top: 10px;
-                margin-left: 25px;
-        
-            } 
-        
-            .Parrafo{
-        
-                background: rgba(184, 184, 0, 0.5);
-                padding-left: 2px;
-                padding-top: 10px;
-                padding-bottom: 10px;
-                padding-right: 270px;
-                margin-bottom: 10px;
-                margin-right: 20px;
-                margin-top: 10px;
-                margin-left: 20px;
-        
-            } 
+        .articulos{
+
+            background: #4e4e6a;
+            flex: 2 1 auto;
+            display: flex;
+            flex-flow: row wrap;
         }
+
+            .article{
+                background: #1f6cb0;
+                flex: 1 1 40%;
+            }
+
+            .navegacion{
+                background: #70a3c4;
+                flex: 1 1 100%;
+            }
+        
+        .aside{
+
+            background: #f73f52;
+            flex: 1 1 auto;
+        }  
+        
+        .publicidad{
+
+            background: #ffea85;
+        }
+
+    .footer{
+        
+        background: #000;
+
+    }
+
+        .pie{
+            background: #e6af2e;
+        }
+
+@media all and (max-width: 800px){
+    
+    .section{
+
+        background: yellow;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 600px){
+
+    .menu{
+        flex-direction: column;
+
+    }
+
+
+
+}
