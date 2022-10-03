@@ -72,27 +72,34 @@
             flex: 2 1 auto;
             display: flex;
             flex-flow: row wrap;
+        
         }
 
             .article{
+                
                 background: #1f6cb0;
                 flex: 1 1 40%;
+            
             }
 
             .navegacion{
+                
                 background: #70a3c4;
                 flex: 1 1 100%;
+            
             }
         
         .aside{
 
             background: #f73f52;
             flex: 1 1 auto;
+        
         }  
         
         .publicidad{
 
             background: #ffea85;
+        
         }
 
     .footer{
@@ -102,6 +109,7 @@
     }
 
         .pie{
+            
             background: #e6af2e;
         }
 
@@ -117,10 +125,9 @@
 @media all and (max-width: 600px){
 
     .menu{
+        
         flex-direction: column;
 
     }
-
-
 
 }
