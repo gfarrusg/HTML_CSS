@@ -4,6 +4,7 @@
     margin: 10px;
     padding: 10px;
     box-sizing: border-box;
+    max-width: 1200px;
 
 }    
     
@@ -11,6 +12,7 @@
 
     display: flex;
     flex-flow: column nowrap;
+    max-width: 1200px;
 
 }
 
@@ -113,7 +115,7 @@
             background: #e6af2e;
         }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 768px){
     
     .section{
 
@@ -122,7 +124,7 @@
     }
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 481px){
 
     .menu{
         
@@ -130,4 +132,9 @@
 
     }
 
+
+    .article{
+
+        flex-direction: column;
+    }
 }
